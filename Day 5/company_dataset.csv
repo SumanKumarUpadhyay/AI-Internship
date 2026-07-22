@@ -1,0 +1,11 @@
+EmployeeID,Name,Department,Age,Salary,Experience,City
+101,Suman,IT,22,45000,1,Bhilai
+102,Aman,HR,25,40000,3,Raipur
+103,Priya,Finance,28,55000,5,Durg
+104,Rahul,IT,24,48000,2,Bilaspur
+105,Neha,Marketing,27,50000,4,Raipur
+106,Rohit,IT,26,52000,3,Bhilai
+107,Anjali,HR,29,47000,6,Durg
+108,Karan,Finance,31,60000,8,Raipur
+109,Pooja,Marketing,23,42000,2,Bhilai
+110,Vikas,IT,30,58000,7,Durg
