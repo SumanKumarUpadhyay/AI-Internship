@@ -7,7 +7,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
 
 # Load Dataset
-df = pd.read_csv("movie_reviews.csv")
+df = pd.read_csv("C:\\Users\\suman\\Desktop\\Ai - Internship\\AI-Internship\\Day 9\\movie_reviews.csv")
 
 # Features and Target
 X = df["review"]
