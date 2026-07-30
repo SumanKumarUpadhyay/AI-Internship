@@ -28,7 +28,7 @@ def run_sentiment_analysis():
 
 
 def run_question_answering():
-    print("\n--- 2. Question Answering ---")
+    print("--- 2. Question Answering ---")
     qa = pipeline("question-answering")
     context = (
         "Hugging Face is a company that provides open-source tools for "
@@ -42,7 +42,7 @@ def run_question_answering():
 
 
 def run_text_generation():
-    print("\n--- 3. Text Generation ---")
+    print("--- 3. Text Generation ---")
     generator = pipeline("text-generation", model="gpt2")
     prompt = "Artificial Intelligence will"
     result = generator(prompt, max_length=30, num_return_sequences=1)
@@ -51,7 +51,7 @@ def run_text_generation():
 
 
 def run_text_summarization():
-    print("\n--- 4. Text Summarization ---")
+    print("--- 4. Text Summarization ---")
     summarizer = pipeline("summarization")
     article = (
         "Artificial intelligence (AI) is intelligence demonstrated by machines, "
@@ -69,7 +69,7 @@ def run_text_summarization():
 
 
 def run_named_entity_recognition():
-    print("\n--- 5. Named Entity Recognition (NER) ---")
+    print("--- 5. Named Entity Recognition (NER) ---")
     ner = pipeline("ner", grouped_entities=True)
     sentence = "Suman is interning at an AI company based in India and building projects with Hugging Face."
     result = ner(sentence)
