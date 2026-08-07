@@ -1,1 +1,72 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================
+# Virtual Environment
+# ==========================
+venv/
+.venv/
+env/
+
+# ==========================
+# Environment Variables
+# ==========================
 .env
+*.env
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# Pytest
+# ==========================
+.pytest_cache/
+
+# ==========================
+# Build Files
+# ==========================
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Streamlit
+# ==========================
+.streamlit/
+
+# ==========================
+# FAISS (Optional)
+# Uncomment if you don't want
+# generated vector indexes in Git
+# ==========================
+# *.faiss
+# *.pkl
+
+# ==========================
+# Upload Folder (Optional)
+# Ignore uploaded PDFs only
+# ==========================
+uploads/
+!uploads/.gitkeep
